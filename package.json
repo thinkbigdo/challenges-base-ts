@@ -4,7 +4,8 @@
   "license": "CC BY-NC-ND",
   "scripts": {
     "test": "npx codeapro test",
-    "watch": "node ./scripts/watch.js",
+    "watch": "npx codeapro watch",
+    "help": "npx codeapro help",
     "prettify": "prettier --write ."
   },
   "dependencies": {
@@ -14,8 +15,6 @@
     "@types/jest": "^29.5.1",
     "jest": "^29.6.0",
     "jest-extended": "^4.0.0",
-    "log-timestamp": "^0.3.0",
-    "md5": "^2.3.0",
     "prettier": "2.8.8",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
