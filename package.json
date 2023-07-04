@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "CC BY-NC-ND",
   "scripts": {
-    "test": "node ./scripts/test.js",
+    "test": "npx codeapro test",
     "watch": "node ./scripts/watch.js",
     "prettify": "prettier --write ."
   },
