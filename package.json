@@ -5,6 +5,7 @@
   "scripts": {
     "test": "npx codeapro test",
     "watch": "npx codeapro watch",
+    "get": "npx codeapro get",
     "help": "npx codeapro help",
     "prettify": "prettier --write ."
   },
