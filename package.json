@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "license": "CC BY-NC-ND",
   "scripts": {
-    "test": "npx codeapro test",
-    "watch": "npx codeapro watch",
-    "get": "npx codeapro get",
-    "help": "npx codeapro help",
+    "test": "npx codeapro@latest test",
+    "watch": "npx codeapro@latest watch",
+    "get": "npx codeapro@latest get",
+    "help": "npx codeapro@latest help",
     "prettify": "prettier --write ."
   },
   "dependencies": {
