@@ -16,7 +16,7 @@ declare global {
       toBeOneOf(expected: { time: string; space: string }[]): R;
       toHaveMixedArrayWithTargetAtEnd(
         expected: Array<number>,
-        target: number
+        target: number,
       ): R;
       toIncludeSameMemberArrays(expected: Array<Array<number>>): R;
     }
