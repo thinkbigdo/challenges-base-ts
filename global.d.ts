@@ -4,6 +4,7 @@ export {};
 
 type solutionType = {
   bigO: () => { time: string; space: string };
+  bigOs: () => Record<string, { time: string; space: string }>;
   run: (T, V?) => number | boolean | string | Array<any>;
   solns: Record<string, (T, V?) => number | boolean | string | Array<any>>;
   default: (T, V?) => number | boolean | string | Array<any>;
