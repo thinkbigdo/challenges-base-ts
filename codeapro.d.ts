@@ -1,2 +1,2 @@
 /// <reference types="codeapro" />
-/// <reference types="codeapro/Jest" />
+/// <reference types="codeapro/jest" />

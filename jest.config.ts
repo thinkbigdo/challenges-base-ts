@@ -1,10 +1,3 @@
-import type { Config } from "jest";
+import jestConfig from "codeapro/codeapro-jest.config.js";
 
-export default async (): Promise<Config> => {
-  return {
-    transform: {
-      "^.+\\.(t|j)sx?$": "@swc/jest",
-    },
-    setupFilesAfterEnv: ["./jest.setup.ts"],
-  };
-};
+export default jestConfig;
